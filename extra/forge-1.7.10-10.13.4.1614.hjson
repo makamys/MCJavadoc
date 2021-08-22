@@ -2,8 +2,8 @@ changes: {
 	net.minecraft.client.renderer.Tessellator: {
 		class:
 			'''
-			# Links
-			[Tessellator page on Forge wiki](http://web.archive.org/web/20160302191926/http://www.minecraftforge.net/wiki/Tessellator)
+			## External links
+			* [Tessellator page on Forge wiki](http://web.archive.org/web/20160302191926/http://www.minecraftforge.net/wiki/Tessellator)
 			'''
 	}
 	
