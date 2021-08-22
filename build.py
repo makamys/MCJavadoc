@@ -21,4 +21,4 @@ os.chdir(outSrcDir)
 subprocess.run(["java", "-jar", EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON]).check_returncode()
 os.chdir(outJavadocDir)
 
-subprocess.run(["javadoc", "-sourcepath", outSrcDir / dirName, "-subpackages", "."]).check_returncode()
+subprocess.run(["javadoc", "-sourcepath", outSrcDir / dirName, "-subpackages", "."])
