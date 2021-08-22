@@ -126,6 +126,21 @@ changes: {
 			* [Protocol - wiki.vg](https://wiki.vg/index.php?title=Protocol&oldid=6003)
 			'''
 	}
+	
+	cpw.mods.fml.common.eventhandler.Event: {
+		class:
+			'''
+			## External links
+			* [Event Handler and Events - Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/mapping-and-modding-tutorials/1571567-forge-1-6-4-1-8-eventhandler-and)
+			'''
+	}
+	
+	cpw.mods.fml.common.event.FMLEvent: {
+		class:
+			'''
+			See also: {@link cpw.mods.fml.common.Mod.EventHandler}
+			'''
+	}
 }
 
 options: {
