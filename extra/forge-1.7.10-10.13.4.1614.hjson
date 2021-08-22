@@ -53,7 +53,8 @@ changes: {
 			## External links
 			* [The most important Minecraft Classes - TheGreyGhost](http://web.archive.org/web/20141202154107/http://greyminecraftcoder.blogspot.com/2013/10/the-most-important-minecraft-classes_9.html)
 			* [Forge - Items - TheGreyGhost](http://web.archive.org/web/20141202120753/http://greyminecraftcoder.blogspot.com/2013/12/forge-items.html)
-			* [Basc Items - Forge Wiki](http://web.archive.org/web/20160303225940/http://www.minecraftforge.net/wiki/Basic_Items)
+			* [Basic Items - Forge Wiki](http://web.archive.org/web/20160303225940/http://www.minecraftforge.net/wiki/Basic_Items)
+			* [Tips On Modding Items - Jabelar](http://jabelarminecraft.blogspot.com/p/minecraft-forge-1721710-tips-on-modding.html)
 			'''
 	}
 	
@@ -73,7 +74,7 @@ changes: {
 			* [Forge - Entities - TheGreyGhost](http://web.archive.org/web/20141202120313/http://greyminecraftcoder.blogspot.com/2013/12/forge-entities.html)
 			* [Creating Custom Entities - Jabelar](http://jabelarminecraft.blogspot.com/p/creating-custom-entities.html)
 			
-			See also: { @link net.minecraft.entity.ai.EntityAIBase }
+			See also: {@link net.minecraft.entity.ai.EntityAIBase}
 			'''
 	}
 	
