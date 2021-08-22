@@ -15,4 +15,4 @@ To generate the javadoc, run `build.py`. This has the following prerequesites:
 * You need a build of ExtraJavadoc on your computer
 
 ## License
-Excluding the javadoc output (the `www` directory), this repository is licensed under the Unlicense.
+Excluding the javadoc output (the `docs` directory), this repository is licensed under the Unlicense.
