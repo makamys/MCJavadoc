@@ -26,3 +26,7 @@ changes: {
 	'''
 	}
 }
+
+options: {
+	additions.prefix: "# Unofficial information"
+}
