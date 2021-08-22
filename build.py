@@ -18,7 +18,7 @@ os.makedirs(outSrcDir, exist_ok=True)
 os.makedirs(outJavadocDir, exist_ok=True)
 
 os.chdir(outSrcDir)
-subprocess.run(["java", "-jar", EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON])
+subprocess.run(["java", "-jar", EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON]).check_returncode()
 os.chdir(outJavadocDir)
 
-subprocess.run(["javadoc", "-sourcepath", outSrcDir / dirName, "-subpackages", "."])
+subprocess.run(["javadoc", "-sourcepath", outSrcDir / dirName, "-subpackages", "."]).check_returncode()
