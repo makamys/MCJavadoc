@@ -3,7 +3,7 @@ changes: {
 		class:
 			'''
 			## External links
-			* [Tessellator page on Forge wiki](http://web.archive.org/web/20160302191926/http://www.minecraftforge.net/wiki/Tessellator)
+			* [Tessellator - Forge Wiki](http://web.archive.org/web/20160302191926/http://www.minecraftforge.net/wiki/Tessellator)
 			'''
 	}
 	
@@ -31,6 +31,8 @@ changes: {
 			'''
 			## External links
 			* [The most important Minecraft Classes - TheGreyGhost](http://web.archive.org/web/20141202154107/http://greyminecraftcoder.blogspot.com/2013/10/the-most-important-minecraft-classes_9.html)
+			* [Forge - Blocks - TheGreyGhost](http://web.archive.org/web/20141201214323/http://greyminecraftcoder.blogspot.com/2013/12/forge-blocks.html)
+			* [Basic Blocks - Forge Wiki](http://web.archive.org/web/20150512124044/http://www.minecraftforge.net/wiki/Basic_Blocks)
 			'''
 	}
 	
@@ -39,6 +41,8 @@ changes: {
 			'''
 			## External links
 			* [The most important Minecraft Classes - TheGreyGhost](http://web.archive.org/web/20141202154107/http://greyminecraftcoder.blogspot.com/2013/10/the-most-important-minecraft-classes_9.html)
+			* [TileEntities - Forge - TheGreyGhost](http://web.archive.org/web/20141202120703/http://greyminecraftcoder.blogspot.com/2013/12/forge-tileentities.html)
+			* [Basic TileEntity - Forge Wiki](http://web.archive.org/web/20160303210405/http://www.minecraftforge.net/wiki/Basic_Tile_Entity)
 			'''
 	}
 	
@@ -47,6 +51,8 @@ changes: {
 			'''
 			## External links
 			* [The most important Minecraft Classes - TheGreyGhost](http://web.archive.org/web/20141202154107/http://greyminecraftcoder.blogspot.com/2013/10/the-most-important-minecraft-classes_9.html)
+			* [Forge - Items - TheGreyGhost](http://web.archive.org/web/20141202120753/http://greyminecraftcoder.blogspot.com/2013/12/forge-items.html)
+			* [Basc Items - Forge Wiki](http://web.archive.org/web/20160303225940/http://www.minecraftforge.net/wiki/Basic_Items)
 			'''
 	}
 	
@@ -63,6 +69,7 @@ changes: {
 			'''
 			## External links
 			* [The most important Minecraft Classes - TheGreyGhost](http://web.archive.org/web/20141202154107/http://greyminecraftcoder.blogspot.com/2013/10/the-most-important-minecraft-classes_9.html)
+			* [Forge - Entities - TheGreyGhost](http://web.archive.org/web/20141202120313/http://greyminecraftcoder.blogspot.com/2013/12/forge-entities.html)
 			'''
 	}
 	
@@ -73,6 +80,23 @@ changes: {
 			* [The most important Minecraft Classes - TheGreyGhost](http://web.archive.org/web/20141202154107/http://greyminecraftcoder.blogspot.com/2013/10/the-most-important-minecraft-classes_9.html)
 			'''
 	}
+	
+	net.minecraft.Minecraft: {
+		class:
+			'''
+			## External links
+			* [The Minecraft main game loop - TheGreyGhost](http://web.archive.org/web/20131019130110/http://greyminecraftcoder.blogspot.com/2013/09/the-minecraft-main-game-loop.html)
+			'''
+	}
+	
+	cpw.mods.fml.common.registry.GameRegistry: {
+		class:
+			'''
+			## External links
+			* [Crafting and Smelting - Forge Wiki](http://web.archive.org/web/20160302190748/http://www.minecraftforge.net/wiki/Crafting_and_Smelting)
+			'''
+	}
+	
 }
 
 options: {
