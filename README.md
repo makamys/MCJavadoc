@@ -2,7 +2,9 @@
 
 This repo hosts Minecraft Forge 1.7.10-10.13.4.1614's javadoc, modified to contain some additional bits of documentation. The instructions used to apply the modifications can be found in the `extra` directory. They are applied by [ExtraJavadoc](https://github.com/makamys/ExtraJavadoc).
 
-[**> Click here to browse it!**](https://makamys.github.io/MCJavadoc/forge-1.7.10-10.13.4.1614/)
+## Javadoc links
+
+[**1.7.10-10.13.4.1614**](https://makamys.github.io/MCJavadoc/forge-1.7.10-10.13.4.1614/)
 
 ## Building
 
