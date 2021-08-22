@@ -1,0 +1,28 @@
+changes: {
+  net.minecraft.client.renderer.Tessellator: {
+    class:
+      '''
+      # Links
+      [Tessellator page on Forge wiki](http://web.archive.org/web/20160302191926/http://www.minecraftforge.net/wiki/Tessellator)
+      '''
+  }
+  
+  cpw.mods.fml.common.event.FMLStateEvent: {
+	class:
+	'''
+	Events fired during mod loading (in this order):
+	* {@link FMLConstructionEvent}
+	* {@link FMLPreInitializationEvent}
+	* {@link FMLInitializationEvent}
+	* {@link FMLPostInitializationEvent}
+	* {@link FMLLoadCompleteEvent}
+	
+	Events fired during server lifecycle (in this order):
+	* {@link FMLServerAboutToStartEvent}
+	* {@link FMLServerStartingEvent}
+	* {@link FMLServerStartedEvent}
+	* {@link FMLServerStoppingEvent}
+	* {@link FMLServerStoppedEvent}
+	'''
+  }
+}
