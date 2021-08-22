@@ -9,7 +9,7 @@ changes: {
 	
 	cpw.mods.fml.common.event.FMLStateEvent: {
 	class:
-	'''
+		'''
 		Events fired during mod loading (in this order):
 		* {@link FMLConstructionEvent}
 		* {@link FMLPreInitializationEvent}
@@ -23,7 +23,7 @@ changes: {
 		* {@link FMLServerStartedEvent}
 		* {@link FMLServerStoppingEvent}
 		* {@link FMLServerStoppedEvent}
-	'''
+		'''
 	}
 	
 	net.minecraft.block.Block: {
