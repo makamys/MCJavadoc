@@ -10,19 +10,19 @@ changes: {
 	cpw.mods.fml.common.event.FMLStateEvent: {
 	class:
 	'''
-	Events fired during mod loading (in this order):
-	* {@link FMLConstructionEvent}
-	* {@link FMLPreInitializationEvent}
-	* {@link FMLInitializationEvent}
-	* {@link FMLPostInitializationEvent}
-	* {@link FMLLoadCompleteEvent}
-	
-	Events fired during server lifecycle (in this order):
-	* {@link FMLServerAboutToStartEvent}
-	* {@link FMLServerStartingEvent}
-	* {@link FMLServerStartedEvent}
-	* {@link FMLServerStoppingEvent}
-	* {@link FMLServerStoppedEvent}
+		Events fired during mod loading (in this order):
+		* {@link FMLConstructionEvent}
+		* {@link FMLPreInitializationEvent}
+		* {@link FMLInitializationEvent}
+		* {@link FMLPostInitializationEvent}
+		* {@link FMLLoadCompleteEvent}
+		
+		Events fired during server lifecycle (in this order):
+		* {@link FMLServerAboutToStartEvent}
+		* {@link FMLServerStartingEvent}
+		* {@link FMLServerStartedEvent}
+		* {@link FMLServerStoppingEvent}
+		* {@link FMLServerStoppedEvent}
 	'''
 	}
 	
