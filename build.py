@@ -11,7 +11,7 @@ cwd = Path(os.getcwd())
 EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON = sys.argv[1:]
 
 dirName = Path(SRCDIR).name
-outJavadocDir = cwd / "www" / dirName
+outJavadocDir = os.path.splitext(cwd / "www" / Path(EXTRA_JSON).name)[0]
 outSrcDir = cwd / "build/src"
 
 os.makedirs(outSrcDir, exist_ok=True)
