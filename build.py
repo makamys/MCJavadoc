@@ -11,13 +11,14 @@ cwd = Path(os.getcwd())
 EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON = sys.argv[1:]
 
 dirName = Path(SRCDIR).name
+outJavadocDir = cwd / "www" / dirName
+outSrcDir = cwd / "out/src"
 
-os.makedirs(cwd / "out/src", exist_ok=True)
-os.makedirs(cwd / "out/javadoc" / dirName, exist_ok=True)
+os.makedirs(outSrcDir, exist_ok=True)
+os.makedirs(outJavadocDir, exist_ok=True)
 
-os.chdir(cwd / "out/src")
+os.chdir(outSrcDir)
 subprocess.run(["java", "-jar", EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON])
-os.chdir(cwd / "out/javadoc" / dirName)
+os.chdir(outJavadocDir)
 
-outDir = cwd / "out/src" / dirName
-subprocess.run(["javadoc", "-sourcepath", outDir, "-subpackages", "."])
+subprocess.run(["javadoc", "-sourcepath", outSrcDir / dirName, "-subpackages", "."])
