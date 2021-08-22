@@ -118,6 +118,14 @@ changes: {
 			* [Localization - Jabelar](http://jabelarminecraft.blogspot.com/p/minecraft-modding-localization.html)
 			'''
 	}
+	
+	net.minecraft.network.Packet: {
+		class:
+			'''
+			## External links
+			* [Protocol - wiki.vg](https://wiki.vg/index.php?title=Protocol&oldid=6003)
+			'''
+	}
 }
 
 options: {
