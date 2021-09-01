@@ -4,6 +4,7 @@ changes: {
 			'''
 			## External links
 			* [Tessellator - Forge Wiki](http://web.archive.org/web/20160302191926/http://www.minecraftforge.net/wiki/Tessellator)
+			* [The Tessellator - TheGreyGhost](http://web.archive.org/web/20150207111000/http://greyminecraftcoder.blogspot.com.au/2013/08/the-tessellator.html)
 			'''
 	}
 	
@@ -123,6 +124,7 @@ changes: {
 		class:
 			'''
 			## External links
+			* [Client<-->Server communication - TheGreyGhost](http://web.archive.org/web/20141222143221/http://greyminecraftcoder.blogspot.com/2013/10/client-server-communication-using.html)
 			* [Protocol - wiki.vg](https://wiki.vg/index.php?title=Protocol&oldid=6003)
 			'''
 	}
