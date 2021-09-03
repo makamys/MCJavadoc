@@ -1,8 +1,8 @@
 # MCJavadoc
 
-This repo hosts Minecraft Forge 1.7.10-10.13.4.1614's javadoc, modified to contain some additional bits of documentation (not much at the moment). The instructions used to apply the modifications can be found in the `extra` directory. They are applied by [ExtraJavadoc](https://github.com/makamys/ExtraJavadoc).
+This repo hosts Minecraft Forge 1.7.10-10.13.4.1614's Javadoc, modified to contain some additional bits of documentation (not much at the moment). The instructions used to apply the modifications can be found in the `extra` directory. They are applied by [ExtraJavadoc](https://github.com/makamys/ExtraJavadoc).
 
-## Javadoc links
+## Browse the Javadoc
 
 [**1.7.10-10.13.4.1614**](https://makamys.github.io/MCJavadoc/forge-1.7.10-10.13.4.1614/)
 
@@ -15,4 +15,4 @@ To generate the javadoc, run `build.py`. This has the following prerequesites:
 * You need a build of ExtraJavadoc on your computer
 
 ## License
-Excluding the javadoc output (the `docs` directory), this repository is licensed under the Unlicense.
+Excluding the Javadoc output (the `docs` directory), this repository is licensed under the Unlicense.
