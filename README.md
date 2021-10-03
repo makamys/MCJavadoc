@@ -4,7 +4,8 @@ This repo hosts Minecraft Forge 1.7.10-10.13.4.1614's Javadoc, modified to conta
 
 ## Browse the Javadoc
 
-[**1.7.10-10.13.4.1614**](https://makamys.github.io/MCJavadoc/forge-1.7.10-10.13.4.1614/)
+* [Index](https://makamys.github.io/MCJavadoc/)
+  * [**1.7.10-10.13.4.1614**](https://makamys.github.io/MCJavadoc/forge-1.7.10-10.13.4.1614/)
 
 ## Building
 
