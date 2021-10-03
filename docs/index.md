@@ -8,5 +8,5 @@ Enhanced Forge javadoc. See [the repo](https://github.com/makamys/MCJavadoc) for
 
 ### Other versions
 
-* [ForgeJavadocs](https://skmedix.github.io/ForgeJavaDocs/) (1.7.10 ~ 1.11.2)
-* [ForgeJavadocs-NG](https://nekoyue.github.io/ForgeJavaDocs-NG/) (1.12.2 ~ )
+* [skmedix/ForgeJavadocs](https://skmedix.github.io/ForgeJavaDocs/) (1.7.10 ~ 1.11.2)
+* [nekoyue/ForgeJavadocs-NG](https://nekoyue.github.io/ForgeJavaDocs-NG/) (1.12.2 ~ )
