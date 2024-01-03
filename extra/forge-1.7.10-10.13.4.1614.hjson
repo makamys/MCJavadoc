@@ -154,6 +154,14 @@ changes: {
 			* https://www.minecraftforum.net/forums/minecraft-java-edition/discussion/2738141-how-are-biome-borders-defined
 			'''
 	}
+    
+    net.minecraft.world.gen.feature.WorldGenerator: {
+		class:
+			'''
+			## External links
+			* How to avoid runaway worldgen: https://old.reddit.com/r/feedthebeast/comments/5x0twz/investigating_extreme_worldgen_lag/
+			'''
+	}
 }
 
 options: {
