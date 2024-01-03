@@ -149,9 +149,9 @@ changes: {
 		class:
 			'''
 			## External links
-			* https://github.com/quat1024/zenbiomes/wiki/Biome-Generation-in-Vanilla
-			* https://old.reddit.com/r/Minecraft/comments/b6rw3w/biome_algorithm_need_a_source_or_more_info/
-			* https://www.minecraftforum.net/forums/minecraft-java-edition/discussion/2738141-how-are-biome-borders-defined
+			* <https://github.com/quat1024/zenbiomes/wiki/Biome-Generation-in-Vanilla>
+			* <https://old.reddit.com/r/Minecraft/comments/b6rw3w/biome_algorithm_need_a_source_or_more_info/>
+			* <https://www.minecraftforum.net/forums/minecraft-java-edition/discussion/2738141-how-are-biome-borders-defined>
 			'''
 	}
     
@@ -159,7 +159,7 @@ changes: {
 		class:
 			'''
 			## External links
-			* How to avoid runaway worldgen: https://old.reddit.com/r/feedthebeast/comments/5x0twz/investigating_extreme_worldgen_lag/
+			* How to avoid runaway worldgen: <https://old.reddit.com/r/feedthebeast/comments/5x0twz/investigating_extreme_worldgen_lag/>
 			'''
 	}
 }
