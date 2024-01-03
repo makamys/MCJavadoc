@@ -8,7 +8,7 @@ extraJavadocJar = Path("build") / "ExtraJavadoc" / "build" / "libs" / "ExtraJava
 if not extraJavadocJar.exists():
     subprocess.run(["git", "clone", "https://github.com/makamys/ExtraJavadoc", "build/ExtraJavadoc"])
     subprocess.run(["git", "checkout", "01ab63bedd5b923cceffb5764facf6b1478ced48"], cwd="build/ExtraJavadoc")
-    subprocess.run(["gradlew", "build"], cwd="build/ExtraJavadoc", shell=True)
+    subprocess.run("gradlew build", cwd="build/ExtraJavadoc", shell=True)
     
     assert extraJavadocJar.exists()
 
@@ -16,7 +16,7 @@ if not extraJavadocJar.exists():
 mc7Sources = Path("mod") / "forge-1.7.10-10.13.4.1614" / "build" / "rfg" / "minecraft-src"
 
 if not mc7Sources.exists():
-    subprocess.run(["gradlew", "build"], cwd="mod/forge-1.7.10-10.13.4.1614", shell=True)
+    subprocess.run("gradlew build", cwd="mod/forge-1.7.10-10.13.4.1614", shell=True)
 
 os.makedirs("docs", exist_ok=True)
 shutil.copy("src/index.md", "docs/index.md")
