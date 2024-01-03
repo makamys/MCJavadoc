@@ -19,7 +19,7 @@ if not mc7Sources.exists():
     subprocess.run("./gradlew build", cwd="mod/forge-1.7.10-10.13.4.1614", shell=True)
 
 os.makedirs("docs", exist_ok=True)
-subprocess.run(["pandoc", "src/index.md", "-f", "markdown", "-t", "html", "-s", "-c", "style.css", "-o", "docs/index.html"])
+subprocess.run(["pandoc", "src/index.md", "-f", "markdown", "-t", "html", "-s", "-c", "style.css", "-o", "docs/index.html", "-T", "MCJavaDoc"])
 shutil.copy("src/style.css", "docs/style.css")
 
 subprocess.run([
