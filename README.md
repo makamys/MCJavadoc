@@ -9,11 +9,11 @@ This repo hosts Minecraft Forge 1.7.10-10.13.4.1614's Javadoc, modified to conta
 
 ## Building
 
-To generate the javadoc, run `build.py`. This has the following prerequesites:
-* Python 3 must be installed
-* Java must be installed, and `java` and `javadoc` must be on the PATH
-* You need a copy of Forge's decompiled and patched Minecraft source in extracted form. On Windows 10 the JAR can be found at `C:\Users\<name>\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10-sources.jar`.
-* You need a build of ExtraJavadoc on your computer
+Prerequisites: Java 8, Python 3, Pandoc.
+
+Run `python3 build.py`. This will build ExtraJavadoc from source, then build the RFG example mod, then use ExtraJavadoc to augment the decompiled sources, and finally use `javadoc` to generate the javadoc.
+
+Only Java 8 is supported. The Java version can be overridden by setting the `JAVA_HOME` environmental variable.
 
 ## License
 Excluding the Javadoc output (the `docs` directory), this repository is licensed under the Unlicense.
