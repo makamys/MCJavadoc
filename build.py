@@ -7,7 +7,7 @@ extraJavadocJar = Path("build") / "ExtraJavadoc" / "build" / "libs" / "ExtraJava
 
 if not extraJavadocJar.exists():
     subprocess.run(["git", "clone", "https://github.com/makamys/ExtraJavadoc", "build/ExtraJavadoc"])
-    subprocess.run(["git", "checkout", "f5a1619c5b6a2b33b0e95aaec035e7077c189685"], cwd="build/ExtraJavadoc")
+    subprocess.run(["git", "checkout", "01ab63bedd5b923cceffb5764facf6b1478ced48"], cwd="build/ExtraJavadoc")
     subprocess.run(["gradlew", "build"], cwd="build/ExtraJavadoc", shell=True)
     
     assert extraJavadocJar.exists()
