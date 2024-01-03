@@ -1,24 +1,30 @@
-import subprocess
-import sys
-import os
 from pathlib import Path
+import subprocess
+import shutil
+import os
 
-if len(sys.argv) != 4:
-    sys.exit("Usage: {} EXTRA_JAVADOC_JAR SRCDIR EXTRA_JSON".format(sys.argv[0]))
+extraJavadocJar = Path("build") / "ExtraJavadoc" / "build" / "libs" / "ExtraJavadoc-0.0.jar"
 
-cwd = Path(os.getcwd())
+if not extraJavadocJar.exists():
+    subprocess.run(["git", "clone", "https://github.com/makamys/ExtraJavadoc", "build/ExtraJavadoc"])
+    subprocess.run(["git", "checkout", "f5a1619c5b6a2b33b0e95aaec035e7077c189685"], cwd="build/ExtraJavadoc")
+    subprocess.run(["gradlew", "build"], cwd="build/ExtraJavadoc", shell=True)
+    
+    assert extraJavadocJar.exists()
 
-EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON = sys.argv[1:]
 
-dirName = Path(SRCDIR).name
-outJavadocDir = os.path.splitext(cwd / "docs" / Path(EXTRA_JSON).name)[0]
-outSrcDir = cwd / "build/src"
+mc7Sources = Path("mod") / "forge-1.7.10-10.13.4.1614" / "build" / "rfg" / "minecraft-src"
 
-os.makedirs(outSrcDir, exist_ok=True)
-os.makedirs(outJavadocDir, exist_ok=True)
+if not mc7Sources.exists():
+    subprocess.run(["gradlew", "build"], cwd="mod/forge-1.7.10-10.13.4.1614", shell=True)
 
-os.chdir(outSrcDir)
-subprocess.run(["java", "-jar", EXTRA_JAVADOC_JAR, SRCDIR, EXTRA_JSON]).check_returncode()
-os.chdir(outJavadocDir)
+os.makedirs("docs", exist_ok=True)
+shutil.copy("src/index.md", "docs/index.md")
 
-subprocess.run(["javadoc", "-sourcepath", outSrcDir / dirName, "-subpackages", "."])
+subprocess.run([
+    "python3",
+    "build_docs.py",
+    Path("build/ExtraJavadoc/build/libs/ExtraJavadoc-0.0.jar").absolute(),
+    Path("mod/forge-1.7.10-10.13.4.1614/build/rfg/minecraft-src/java").absolute(),
+    Path("extra/forge-1.7.10-10.13.4.1614.hjson").absolute()
+])
